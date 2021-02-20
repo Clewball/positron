@@ -1,0 +1,291 @@
+body{ 
+    min-height: 110vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar-custom{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    background-color: #a0c1c1;
+}
+
+.navbar-custom a{
+    color: #ffffff;
+}
+
+.navbar-custom a:hover{
+    font-weight: 500;
+}
+
+/*.bg-dark, .navbar-dark{
+    opacity: 0.9;
+}*/
+
+header p {
+    color: #D97D54;
+    font-size: 60px;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    padding: 60px 0px 0px 0px;
+    margin-bottom: 60px;
+}
+
+/*from Brian*/
+.hangingindent {
+    padding-left: 240px ;
+    text-indent: -120px ;
+  }
+
+section p {
+    color: #526464;
+    font-family:'Hind', Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.8;
+    margin: 0px 30% 0px 30%;
+    padding: 0px 0px 20px 0px
+}
+
+section p.orange{
+    color: #D97D54;
+}
+
+h1{
+    color: #526464;
+    margin: 40px 0px 40px 0px;
+}
+
+#preview{
+    margin: 40px 0px 40px 0px;
+    border: 2px solid #666666;
+}
+
+/*.btn-primary{
+    border-radius: 40px;
+    padding-top: 18px;
+    width: 260px;
+    height: 70px;
+    font-size: 24px;
+    margin: auto 0;
+}
+
+.btn-primary:hover{
+    background-color: #B86528;
+    border: 1px solid #665152;
+}*/
+
+/*Brians Button*/
+.btn-primary{
+    border-radius: 100px;
+    box-shadow:0px 10px 15px rgba(2,2,2,0.302);
+    padding-top: 18px;
+    width: 260px;
+    height: 70px;
+    font-size: 24px;
+    margin: auto 0;
+    flex-shrink:1;
+    height:89px;
+    width:511px;
+    transform:scale(0.9);
+    font-family:'Montserrat',Helvetica,sans-serif;
+    transition:all 0.2 ease;
+    letter-spacing:5.4px;
+    font-weight:400;
+    font-style:normal;
+    font-size:27px;
+    margin-top:60px;
+}
+
+.btn-primary:hover{
+    background-color: #B86528;
+    border: none;
+}
+
+.btn-primary{
+    background-color: #CC794E;
+    border: none;
+}
+
+.cta{
+    margin: 20px 0px 80px 0px;
+}
+
+.card{
+    color: #666666;
+}
+
+.btn-primary{
+    background-color: #CC794E;
+    border: 1px solid #665152;
+}
+
+/*footer section*/
+
+#appstore{
+    /*text-align: left;*/
+    padding-left: 40px;
+}
+
+#social{
+    /*text-align: right;*/
+    padding: 20px 0px 0px 0px;
+}
+
+#social i{
+    /*text-align: right;*/
+    padding: 0px 30px 0px 0px;
+}
+
+footer{
+    background-color: #a0c1c1;
+    font-weight: 400;
+    padding: 20px 0px 40px 0px;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#footernav ul li{
+   margin: 0 auto;
+}
+
+#footernav a{
+    color: #ffffff;
+}
+
+#footernav a:hover{
+    font-weight: 500;
+}
+
+/* top nav 
+.nav-link {
+    color:#334856;
+}
+.nav-link:hover {
+    color:#212529;
+}
+.nav-link.active {
+    color:black;
+    font-weight:500;
+}
+.nav-link.active:hover {
+    color:#212529;
+    font-weight:500;
+}/*
+
+
+/* Team Code Nate Found - Team design card flipper using Bootstrap 4*/
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #f3f3f3;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;    
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #287781 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #287781 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.card p{
+    margin: 0;
+    padding: 0;
+}
+
